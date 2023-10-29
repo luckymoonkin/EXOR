@@ -23,7 +23,7 @@ public class Application {
 //		
 //		long afterMemory = runtime.totalMemory() - runtime.freeMemory();
 //		System.out.println("객체 생성 후 메모리 사용량 : " + afterMemory);
-		
+//		
 //		// 상속
 //		Inherit inherit = new Inherit();
 //		Inherit.TV tv1 = inherit.new TV("오브제 컬렉션 QT115", "LG전자", 4000000);
@@ -43,15 +43,15 @@ public class Application {
 //		Generics<Inherit.Product> productBox = new Generics<>();
 //		productBox.setItem(tv1);
 //		productBox.getItem().turnOff();
-		
-		// 싱글턴
+//		
+//		// 싱글턴
 //		SingletonUtil util = SingletonUtil.getInstance();
 //		util.printInput();
-		
-		// 스레드
-		ThreadExamples te = new ThreadExamples();
-		
-		// 스레드 - 출력 + 합산하기
+//		
+//		// 스레드
+//		ThreadExamples te = new ThreadExamples();
+//		
+//		// 스레드 - 출력 + 합산하기
 //		Scanner sc = new Scanner(System.in);
 //		int number = Integer.valueOf(sc.nextLine());
 //		
@@ -60,19 +60,19 @@ public class Application {
 //		
 //		printNumbers.start();
 //		sumUp.start();
-		
-		// 스레드 - 수강 신청
-		Course physics = te.new Course("물리학", 3);
-		
-		Thread student1 = new Thread(te.new Registration(physics, "김일번"));
-		Thread student2 = new Thread(te.new Registration(physics, "김이번"));
-		Thread student3 = new Thread(te.new Registration(physics, "김삼번"));
-		Thread student4 = new Thread(te.new Registration(physics, "김사번"));
-		
-		student1.start();
-		student2.start();
-		student3.start();
-		student4.start();
+//		
+//		// 스레드 - 수강 신청
+//		Course physics = te.new Course("물리학", 3);
+//		
+//		Thread student1 = new Thread(te.new Registration(physics, "김일번"));
+//		Thread student2 = new Thread(te.new Registration(physics, "김이번"));
+//		Thread student3 = new Thread(te.new Registration(physics, "김삼번"));
+//		Thread student4 = new Thread(te.new Registration(physics, "김사번"));
+//		
+//		student1.start();
+//		student2.start();
+//		student3.start();
+//		student4.start();
 		
 	}
 
