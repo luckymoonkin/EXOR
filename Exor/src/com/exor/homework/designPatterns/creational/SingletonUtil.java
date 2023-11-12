@@ -1,4 +1,4 @@
-package com.exor.homework.w1;
+package com.exor.homework.designPatterns.creational;
 
 import java.util.Scanner;
 

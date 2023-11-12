@@ -1,4 +1,4 @@
-package com.exor.homework.w2;
+package com.exor.homework.designPatterns.creational;
 
 public class FactoryMethod {
 	/*
